@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "ep24.web/ep24.web.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
